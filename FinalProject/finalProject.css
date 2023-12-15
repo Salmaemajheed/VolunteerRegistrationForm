@@ -1,0 +1,79 @@
+/* 
+   CSS File: Salma'sDiceGame.css
+   Author: Salma Emjaheed
+   Date: 09/26/2023
+   Description: This CSS file defines styles for Salma's Dice Game web page, 
+   including text alignment, font settings, player containers, button, message,
+   table, and header styles.
+*/		
+
+/* Set background color for the HTML element */
+html {
+	background-color: rgb(233, 116, 81);
+}
+
+/* Style for the body element */
+body {
+	background-color: white;
+	margin-right: 7%;
+	margin-left: 7%;
+	text-align: center;
+	padding: 30px;
+}
+
+/* Style for h2 elements */
+h2 {
+	color: red;
+}
+
+/* Style for form elements */
+form {
+	border: 2px dotted;
+	padding: 20px;
+	margin-right: 90px;
+	margin-left: 90px;
+	overflow: auto; /* Clear the float to contain the child elements */
+}
+		
+/* Style for label elements inside the form */
+label {
+	float: left;
+	clear: left;
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+/* Style for text and email input elements inside the form */
+input[type="text"], input[type="email"] {
+	float: left;
+	padding-right: 100px;
+	margin-bottom: 20px;
+}
+
+/* Style for select inside the form */
+select {
+    float: left;
+    padding-right: 20px; /* Adjust the padding as needed */
+    margin-bottom: 20px;
+}
+
+/* Style for submit button inside the form */
+input[type="submit"] {
+	float: left;
+	clear: left;
+	margin-left: 250px;
+	margin-top: 15px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+		
+/* Style for error messages (both first name and last name) */
+.errFirstName, .errLastName {
+	float: left;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
